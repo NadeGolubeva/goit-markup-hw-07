@@ -15,9 +15,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <!-- <link rel="stylesheet" href="./css/common.css" /> -->
-    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page">
     <!--Шапка-->
@@ -77,24 +76,25 @@
             <div class="backdrop is-hidden" data-modal>
               <div class="modal-wrapper">
                 <button class="modal-btn" data-modal-close>
-                  <svg width="18" height="18">
+                  <svg width="11" height="11">
                     <use href="./sprite.svg#icon-close-black"></use>
                   </svg>
                 </button>
 
-               <strong class="form-title"
+                <!-- Modal-form div -->
+                <strong class="form-title"
                   >Оставьте свои данные, мы вам перезвоним</strong
                 >
                 <div class="modal-box">
                   <form class="modal-form">
                     <div class="form-field">
-                      <label class="modal-label" for="username">Имя</label>
                       <input
                         class="form-input"
                         type="text"
                         name="username"
                         id="username"
                       />
+                      <label class="modal-label" for="username">Имя</label>
                       <!-- <span class="form-label-text">Имя</span> -->
                       <svg class="form-icon" width="12" height="12">
                         <use href="./sprite.svg#icon-person"></use>
@@ -102,20 +102,19 @@
                     </div>
 
                     <div class="form-field">
-                      <label class="modal-label" for="tel">Телефон</label>
                       <input
                         class="form-input"
                         type="tel"
                         name="tel"
                         id="tel"
                       />
+                      <label class="modal-label" for="tel">Телефон</label>
                       <!-- <span class="form-label-text">Телефон</span> -->
                       <svg class="form-icon" width="13" height="13">
                         <use href="./sprite.svg#icon-phone"></use>
                       </svg>
                     </div>
                     <div class="form-field">
-                      <label class="modal-label" for="email">Почта</label>
                       <input
                         class="form-input"
                         type="email"
@@ -123,13 +122,13 @@
                         id="email"
                         
                       />
+                      <label class="modal-label" for="email">Почта</label>
                       <!-- <span class="form-label-text">Почта</span> -->
                       <svg class="form-icon" width="15" height="12">
                         <use href="./sprite.svg#icon-envelope-little"></use>
                       </svg>
                     </div>
                     <div class="form-field">
-                      <label class="modal-label" for="feedback">Комментарий
                       <textarea  
                         class="form-input comment"
                         name="feedback"
@@ -137,33 +136,33 @@
                         id="feedback"
                         rows="5"
                       >
-</textarea>
-                        <!-- <span class="form-label-text">Комментарий</span> -->
+                      </textarea>
+                      <label calss="modal-label-comment" for="feedback">
+                        <span class="form-label-text">Комментарий</span>
                       </label>
                     </div>
- <div class="form-field">
-   <input
-                      class="checkbox"
+
+                    <input
+                      calss="checkbox hidden"
                       type="checkbox"
                       name="agree"
                       id="agree"
-                      />
-                      <span class="custom-checkbox"></span>
+                    />
+                    <label class="label-checkbox" for="agree">
                       <svg class="stick-icon" width="16" height="15">
                         <use href="./sprite.svg#icon-galka"></use>
                       </svg>
-                      <label class="label-checkbox" for="agree">
+                      <span class="custom-checkbox"></span>
                       <span class="agreement-text">
-                        Соглашаюсь с рассылкой и принимаю 
-                        <a href="" class="accent-agreement"
-                          > Условия договора</a
+                        Соглашаюсь с рассылкой и принимаю
+                        <span class="accent-agreement"
+                          >Условия договора</span
                         ></span
                       >
                     </label>
-</div>
+
                     <button class="btn-form" type="submit">Отправить</button>
                   </form>
-                </div>
                 </div>
               </div>
             </div>
@@ -173,53 +172,53 @@
 
       <!--Qualities-->
       <section class="section">
-        <div class="feature container">
-          <h2 class="section-title hidden">Наши качества</h2>
-          <ul class="feature__list list">
-            <li class="feature__item item">
-              <div class="feature__box">
-                <svg class="feature__icon">
+        <div class="container">
+          <h2 class="hidden section-title">Наши качества</h2>
+          <ul class="feature-list list">
+            <li class="item">
+              <div class="features">
+                <svg class="feature-icon">
                   <use href="./sprite.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h3 class="feature__title">Внимание к деталям</h3>
-              <p class="feature__text">
+              <h3>Внимание к деталям</h3>
+              <p>
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="feature__item item">
-              <div class="feature__box">
-                <svg class="feature__icon">
+            <li class="item">
+              <div class="features">
+                <svg class="feature-icon">
                   <use href="./sprite.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h3 class="feature__title">Пунктуальность</h3>
-              <p class="feature__text">
+              <h3>Пунктуальность</h3>
+              <p>
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="feature__item item">
-              <div class="feature__box">
-                <svg class="feature__icon">
+            <li class="item">
+              <div class="features">
+                <svg class="feature-icon">
                   <use href="./sprite.svg#icon-comp"></use>
                 </svg>
               </div>
-              <h3 class="feature__title">Планирование</h3>
-              <p class="feature__text">
+              <h3>Планирование</h3>
+              <p>
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="feature__item item">
-              <div class="feature__box">
-                <svg class="feature__icon">
+            <li class="item">
+              <div class="features">
+                <svg class="feature-icon">
                   <use href="./sprite.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <h3 class="feature__title">Современные технологии</h3>
-              <p class="feature__text">
+              <h3>Современные технологии</h3>
+              <p>
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -231,36 +230,36 @@
       <section class="section no-padding gallery">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul class="gallery__list list">
-            <li class="gallery__item item">
+          <ul class="list-pic list">
+            <li class="item">
               <img
-                class="gallery__img"
+                class="work-process"
                 src="./images/box1.jpg"
                 alt="Рабочий процесс"
                 width="370"
                 height="294"
               />
-              <p class="gallery__text">Десктопные приложения</p>
+              <p class="work-description">Десктопные приложения</p>
             </li>
-            <li class="gallery__item item">
+            <li class="item">
               <img
-                class="gallery__img"
+                class="work-process"
                 src="./images/box2.jpg"
                 alt="Веб-дизайн для смартфонов"
                 width="370"
                 height="294"
               />
-              <p class="gallery__text">Мобильные приложения</p>
+              <p class="work-description">Мобильные приложения</p>
             </li>
-            <li class="gallery__item item">
+            <li class="item">
               <img
-                class="gallery__img"
+                class="work-process"
                 src="./images/box3.jpg"
                 alt="Веб-дизайн для планшетов"
                 width="370"
                 height="294"
               />
-              <p class="gallery__text">Дизайнерские решения</p>
+              <p class="work-description">Дизайнерские решения</p>
             </li>
           </ul>
         </div>
@@ -545,11 +544,11 @@
 
       <!-- Clients -->
 
-      <section class="client section">
-        <div class="container">
+      <section class="section clients">
+        <div class="clients container">
           <h2 class="section-title">Постоянные клиенты</h2>
-          <ul class="client-list list">
-            <li class="client-item">
+          <ul class="clients-list list">
+            <li class="client-items">
               <a
                 class="client-link"
                 href=""
@@ -561,7 +560,7 @@
                 </svg>
               </a>
             </li>
-            <li class="client-item">
+            <li class="client-items">
               <a
                 class="client-link"
                 href=""
@@ -572,7 +571,7 @@
                   <use href="./sprite.svg#icon-client-2"></use></svg
               ></a>
             </li>
-            <li class="client-item">
+            <li class="client-items">
               <a
                 class="client-link"
                 href=""
@@ -583,7 +582,7 @@
                   <use href="./sprite.svg#icon-client-3"></use></svg
               ></a>
             </li>
-            <li class="client-item">
+            <li class="client-items">
               <a
                 class="client-link"
                 href=""
@@ -594,7 +593,7 @@
                   <use href="./sprite.svg#icon-client-4"></use></svg
               ></a>
             </li>
-            <li class="client-item">
+            <li class="client-items">
               <a
                 class="client-link"
                 href=""
@@ -605,7 +604,7 @@
                   <use href="./sprite.svg#icon-client-5"></use></svg
               ></a>
             </li>
-            <li class="client-item">
+            <li class="client-items">
               <a
                 class="client-link"
                 href=""

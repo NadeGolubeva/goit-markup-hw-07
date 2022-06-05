@@ -1,0 +1,43 @@
+/* Clients */
+
+.client-list {
+    display: flex;
+    justify-content: center;
+}
+
+.client-link {
+    display: flex;
+
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+    fill: #afb1b8;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-item {
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.client-item:hover,
+.client-item:focus {
+    border: 1px solid var(--accent-color);
+}
+
+.client-link:hover,
+.client-link:focus {
+    fill: var(--accent-color);
+}

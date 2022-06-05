@@ -1,0 +1,33 @@
+/*  Our works Portfolio */
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.work-container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.filters {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.element-discription {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-left: 0;
+    padding-right: 0;
+}
