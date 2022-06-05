@@ -832,8 +832,7 @@ Modal form  div
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn .btn:hover,
-.btn .btn:focus {
+.btn:hover, .btn:focus {
   background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
@@ -1022,8 +1021,7 @@ Modal form  div
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover,
-.social-link:focus {
+.social-link:hover, .social-link:focus {
   background-color: #2196f3;
   fill: white;
 }
@@ -1100,6 +1098,10 @@ Modal form  div
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.client-link:hover, .client-link:focus {
+  fill: var(--accent-color);
+}
+
 .client-item {
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -1111,18 +1113,12 @@ Modal form  div
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.client-item:hover,
-.client-item:focus {
+.client-item:hover, .client-item:focus {
   border: 1px solid var(--accent-color);
 }
 
-.client-link:hover,
-.client-link:focus {
-  fill: var(--accent-color);
+.client-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /*  Our works Portfolio */
