@@ -121,12 +121,14 @@
     /* background-image: url(../icons/close.png); */
     fill: #000000;
     border-color: rgba(0, 0, 0, 0.1);
+
+    &:hover,
+        &:focus {
+            fill: #2196f3;
+        }
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
-    fill: #2196f3;
-}
+
 
 /* 
 ===============
@@ -223,16 +225,17 @@ Modal form  div
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 15px;
+    &::placeholder {
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.01em;
+    
+            color: rgba(117, 117, 117, 0.5);
+    
+        }
 }
 
-.comment::placeholder {
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.01em;
 
-    color: rgba(117, 117, 117, 0.5);
-
-}
 
 .btn-form {
     display: flex;

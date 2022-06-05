@@ -551,8 +551,7 @@ ul {
   border-color: rgba(0, 0, 0, 0.1);
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
+.modal-btn:hover, .modal-btn:focus {
   fill: #2196f3;
 }
 
@@ -833,15 +832,15 @@ Modal form  div
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filters.list li.item:nth-child(-n + 4) {
-  margin-right: 8px;
-}
-
-.btn:hover,
-.btn:focus {
+.btn .btn:hover,
+.btn .btn:focus {
   background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
+}
+
+.filters.list li.item:nth-child(-n + 4) {
+  margin-right: 8px;
 }
 
 /* Sections */

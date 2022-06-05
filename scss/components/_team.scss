@@ -92,10 +92,11 @@
     transition-property: background-color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+    &:focus {
+        background-color: $accent-color;
+        fill: white;
+    }
 }
 
-.social-link:hover,
-.social-link:focus {
-    background-color: $accent-color;
-    fill: white;
-}

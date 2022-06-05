@@ -91,7 +91,7 @@ outline: 1px solid red;}
   padding-top: 0px;
   padding-bottom: 0px;
 
-  background-color: var(--secondary-bgc);
+  background-color: $secondary-bgc;
 
   text-align: center;
 }
@@ -114,7 +114,7 @@ outline: 1px solid red;}
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: var(--white-color);
+  color: $white-color;
 }
 
 .section {
@@ -272,14 +272,14 @@ transition-property: color;
 .form-input:focus + .modal-label,
 .form-input:hover + .modal-label
 {
-  color: var(--accent-color);
+  color: $accent-color;
   
 }
 
 .form-input:focus,
 .form-input:hover {
 cursor: pointer;
-border:  1px solid var(--accent-color);
+border:  1px solid $accent-color;
 /* outline-offset: -2px; */
 border-radius: 4px;
 }
@@ -298,8 +298,8 @@ border-radius: 4px;
 }
 
 .form-input:focus ~ .form-icon {
-background-color: var(--accent-color);
-fill: var(--accent-color);
+background-color: $accent-color;
+fill: $accent-color;
 }
 
 
@@ -423,7 +423,7 @@ opacity: 1;
 }
 
 .checkbox:checked+.custom-checkbox {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 .checkbox:checked+.custom-checkbox .stick-icon {
 opacity: 1;
@@ -537,7 +537,7 @@ opacity: 1;
 }
 
 .checkbox:checked+.custom-checkbox {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 .checkbox:checked+.custom-checkbox .stick-icon {
 opacity: 1;
@@ -554,8 +554,8 @@ opacity: 1;
   border: 1px solid transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-  background-color: var(--accent-color);
-  color: var(--white-color);
+  background-color: $accent-color;
+  color: $white-color;
   cursor: pointer;
 
   font-weight: 700;
@@ -573,7 +573,7 @@ opacity: 1;
   margin-right: 0;
 
   background-color: #f5f4fa;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
@@ -591,8 +591,8 @@ opacity: 1;
 
 .btn:hover,
 .btn:focus {
-  background-color: var(--accent-color);
-  color: var(--white-color);
+  background-color: $accent-color;
+  color: $white-color;
   cursor: pointer;
 }
 
@@ -612,7 +612,7 @@ opacity: 1;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 /* Qualities */
 
@@ -677,7 +677,7 @@ opacity: 1;
   letter-spacing: 0.03em;
   text-transform: capitalize;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 .feature-list.list h3 {
   text-transform: uppercase;
@@ -704,7 +704,7 @@ opacity: 1;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 
 /* Work process */
@@ -776,10 +776,10 @@ z-index: 10;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 .team-list .item {
-  background-color: var(--white-color);
+  background-color: $white-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -793,7 +793,7 @@ z-index: 10;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 .team-member {
   padding-top: 30px;
@@ -830,7 +830,7 @@ z-index: 10;
 }
 .social-link:hover,
 .social-link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   fill: white;
   
 }
@@ -867,13 +867,13 @@ z-index: 10;
 }
 .client-items:hover,
 .client-items:focus {
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
   
 }
 
 .client-link:hover,
 .client-link:focus {
-  fill: var(--accent-color);
+  fill: $accent-color;
   
 }
 
@@ -923,7 +923,7 @@ section {
 
   letter-spacing: 0.06em;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 .work-list .type-work {
@@ -935,7 +935,7 @@ section {
 
   letter-spacing: 0.03em;
 
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 .work-container {
   width: 1200px;
@@ -948,7 +948,7 @@ section {
   margin-right: 30px;
   margin-bottom: 30px;
 
-  background: var(--white-color);
+  background: $white-color;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 
@@ -977,8 +977,8 @@ section {
 
 .filters .btn:hover,
 .filters .btn:focus {
-  background-color: var(--accent-color);
-  color: var(--white-color);
+  background-color: $accent-color;
+  color: $white-color;
   cursor: pointer;
   box-shadow: 0px 2px 2px grey;
 
