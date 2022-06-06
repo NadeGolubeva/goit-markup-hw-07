@@ -29,6 +29,56 @@ ul {
   padding: 0;
 }
 
+/* Button */
+.primary-btn {
+  padding: 10px 32px;
+  border-radius: 4px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 200px;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  margin-right: 0;
+  background-color: #f5f4fa;
+  color: #212121;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  -webkit-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover, .btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.filters.list li.item:nth-child(-n + 4) {
+  margin-right: 8px;
+}
+
 /* Header */
 .page-header {
   background-color: #ffffff;
@@ -790,56 +840,6 @@ Modal form  div
 .checkbox:checked ~ .stick-icon {
   opacity: 1;
   fill: #ffffff;
-}
-
-/* Button */
-.primary-btn {
-  padding: 10px 32px;
-  border-radius: 4px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  min-width: 200px;
-  border: 1px solid transparent;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: #2196f3;
-  color: #ffffff;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-}
-
-.btn {
-  display: inline-block;
-  padding: 6px 22px;
-  border-radius: 4px;
-  border: 1px solid transparent;
-  margin-right: 0;
-  background-color: #f5f4fa;
-  color: #212121;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  -webkit-transition-property: background-color, color;
-  transition-property: background-color, color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.btn:hover, .btn:focus {
-  background-color: #2196f3;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.filters.list li.item:nth-child(-n + 4) {
-  margin-right: 8px;
 }
 
 /* Sections */

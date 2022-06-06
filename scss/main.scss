@@ -1,13 +1,20 @@
-@import "./utils/variables";
-@import "./base/common";
-@import "./components/header-footer";
-@import "./components/hero";
-@import "./components/buttons";
-@import "./components/section-qualities";
-@import "./components/team";
-@import "./components/work-process";
-@import "./components/clients";
-@import "./components/portfolio-basic";
-@import "./components/portfolio-container";
-@import "./components/portfolio-overlay";
+// utils styles
 
+@import "./utils/variables";
+
+// base style
+@import "./base/common";
+@import "./base/reset";
+@import "./components/buttons";
+
+
+// layouts styles
+@import "./layouts/header-footer";
+@import "./layouts/hero";
+@import "./layouts/section-qualities";
+@import "./layouts/team";
+@import "./layouts/work-process";
+@import "./layouts/clients";
+@import "./layouts/portfolio-basic";
+@import "./layouts/portfolio-container";
+@import "./layouts/portfolio-overlay";
